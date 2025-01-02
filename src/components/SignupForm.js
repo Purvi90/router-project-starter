@@ -65,7 +65,7 @@
     {/*first name and last name only this div */}
         <div>
       <label>
-         <p>First Name <sup>*</sup></p>
+         <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'>First Name <sup className='text-pink-200'>*</sup></p>
          <input
              required
              type="text"
@@ -77,7 +77,7 @@
         </label>
 
         <label>
-           <p> Last Name <sup>*</sup></p>
+           <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'> Last Name <sup className='text-pink-200'>*</sup></p>
           <input
              required
              type="text"
@@ -91,7 +91,7 @@
    
     {/*email add */}
         <label>
-           <p> Email Address <sup>*</sup></p>
+           <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'> Email Address <sup className='text-pink-200'>*</sup></p>
           <input
              required
              type="email"
@@ -106,7 +106,7 @@
 
      <div>
      <label>
-           <p> Create Password <sup>*</sup></p>
+           <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'> Create Password <sup className='text-pink-200'>*</sup></p>
           <input
              required
              type={showPassword ? ("text") :("Password")}
@@ -123,7 +123,7 @@
 
 
           <label>
-           <p> Confirm Password <sup>*</sup></p>
+           <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'> Confirm Password <sup className='text-pink-200'>*</sup></p>
           <input
              required
              type={showPassword ? ("text") :("password")}
