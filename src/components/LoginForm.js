@@ -80,7 +80,7 @@ const navigate = useNavigate();
 
         </label>
 
-        <button className='bg-yellow-50 rounded-[8px] font-medium text-richblack-900 px-[12px] py-[8px] mt-5'>
+        <button className='bg-yellow-50 rounded-[6px] font-medium text-richblack-900 px-[12px] py-[8px] mt-3'>
           Sign In
         </button>
 
